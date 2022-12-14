@@ -8,7 +8,7 @@ import pandas as pd
 transform_poly = pickle.load(open("poly_reg_3.pkl", "rb"))
 encoding = pickle.load(open("encoding.pkl", "rb"))
 model_fix = pickle.load(open("model_poly3.pkl", "rb"))
-data = pd.read_parquet("Data.parquet")
+data = pd.read_parquet("data.parquet")
 
 
 # judul web

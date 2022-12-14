@@ -5,9 +5,9 @@ import pandas as pd
 
 
 #load
-transform_poly = pickle.load(open("final_project_1-linear_regression/poly_reg_3.pkl", "rb"))
-encoding = pickle.load(open("final_project_1-linear_regression/encoding.pkl", "rb"))
-model_fix = pickle.load(open("final_project_1-linear_regression/model_poly3.pkl", "rb"))
+transform_poly = pickle.load(open("poly_reg_3.pkl", "rb"))
+encoding = pickle.load(open("encoding.pkl", "rb"))
+model_fix = pickle.load(open("model_poly3.pkl", "rb"))
 data = pd.read_csv("Data.csv")
 
 
